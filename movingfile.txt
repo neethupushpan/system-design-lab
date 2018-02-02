@@ -1,0 +1,47 @@
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git clone git://github.com/tswicegood/bobby-tables.git
+Cloning into 'bobby-tables'...
+remote: Counting objects: 39, done.
+remote: Total 39 (delta 0), reused 0 (delta 0), pack-reused 39
+Receiving objects: 100% (39/39), 43.03 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (10/10), done.
+Checking connectivity... done.
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ sudo userdel user1
+[sudo] password for mca: 
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ sudo userdel user2
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ sudo userdel user3
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ sudo userdel user4
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ sudo userdel user5
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ cd html
+bash: cd: html: No such file or directory
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ mkdir new
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git newfile.sh new
+git: 'newfile.sh' is not a git command. See 'git --help'.
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfile.sh new
+fatal: bad source, source=newfile.sh, destination=new/newfile.sh
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfil.sh new
+fatal: not under version control, source=newfil.sh, destination=new/newfil.sh
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfile  new
+fatal: bad source, source=newfile, destination=new/newfile
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfil.sh  new
+fatal: not under version control, source=newfil.sh, destination=new/newfil.sh
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ cd ..
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~$ cd neethup
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git init
+Reinitialized existing Git repository in /home/mca/neethup/.git/
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git add .
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git commit
+
+Error reading /home/mca/.nano_history: Permission denied
+
+Press Enter to continue starting nano.
+
+Aborting commit due to empty commit message.
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ mkdir new
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git mv example.sh new
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ cd ..
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~$ cd neethu
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfil.sh new
+fatal: not under version control, source=newfil.sh, destination=new/newfil.sh
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv sample.sh new
+mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ 
+
