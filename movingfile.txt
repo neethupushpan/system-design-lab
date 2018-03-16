@@ -31,13 +31,7 @@ Reinitialized existing Git repository in /home/mca/neethup/.git/
 mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git add .
 mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git commit
 
-Error reading /home/mca/.nano_history: Permission denied
-
-Press Enter to continue starting nano.
-
-Aborting commit due to empty commit message.
-mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ mkdir new
-mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ git mv example.sh new
+Error reading /home/mca/.nano_history: Permissio
 mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethup$ cd ..
 mca@mca-HP-Compaq-8200-Elite-MT-PC:~$ cd neethu
 mca@mca-HP-Compaq-8200-Elite-MT-PC:~/neethu$ git mv newfil.sh new
